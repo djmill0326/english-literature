@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Old English Literature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      a {
+        color: #cdf;
+        transition: color 0.1s ease-in;
+      }
+
+      a:visited {
+        color: #dcf;
+      }
+
+      a:hover {
+        color: #abf;
+      }
+
+      body {
+        font-family: "Roboto Slab", serif;
+        background: rgb(131, 58, 180);
+        background: linear-gradient(
+          90deg,
+          rgba(131, 58, 180, 1) 0%,
+          rgba(29, 182, 253, 1) 50%,
+          rgba(69, 252, 165, 1) 100%
+        );
+      }
+
+      .site {
+        display: flex;
+      }
+
+      .site {
+        margin-top: 3vw;
+      }
+
+      .site > * {
+        margin: 0 1vw;
+      }
+
+      .sidebar {
+        width: 33.33333vw;
+      }
+
+      .main-content {
+        order: 0;
+      }
+
+      .left {
+        order: -1;
+      }
+
+      .right {
+        order: 1;
+      }
+
+      .card {
+        background-color: #333;
+        padding: 2rem;
+        margin-bottom: 3vw;
+        color: #fff;
+        box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 0.5rem;
+        width: 100%;
+      }
+
+      .clear {
+        background: none;
+      }
+
+      .created {
+        color: #eee;
+        float: right;
+      }
+
+      .subheading {
+        color: #f7eeff;
+      }
+
+      .divider {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        height: 2px;
+        background-color: #555;
+      }
+
+      .dashed {
+        border-style: dashed;
+      }
+
+      li {
+        margin-bottom: 0.25em;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .site {
+          flex-direction: column;
+        }
+
+        .site > * {
+          width: initial !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="site">
+      <div class="sidebar left"></div>
+      <div class="sidebar right"></div>
+      <div class="main-content">
+        <div class="card">
+          <!--Website title-->
+          <span class="created">Site created by Dylan Miller</span>
+          <h1>English Literature</h1>
+          <h2 class="subheading">
+            Old English Period <span style="color: #fcc">(428-1066)</span>
+          </h2>
+          <div class="divider"></div>
+
+          <!--Begin content-->
+          <!--Poetry-->
+          <h2 class="subheading">Poetry</h2>
+          <h3>Notable Literature</h3>
+          <ul>
+            <li>
+              <i>Caedmon's Hymn</i>, in Bede's
+              <i>An Ecclesiastical History of the English People</i>, created
+              between 775-825.
+            </li>
+            <li>Beowulf, ca. 750</li>
+            <li>
+              Author unknown, <i>Dream of the Rood</i>, age unknown—possibly 7th
+              century
+            </li>
+          </ul>
+          <p>
+            <i>Caedmon's Hymn</i> is the earliest example of a poem written in
+            English. It was originally an oral hymn composed by a cowherd named
+            Caedmon. Later, it was put into writing by a monk named Bede. It has
+            the style of 4-beat lines consistent with other English poetry.
+          </p>
+          <div class="divider"></div>
+
+          <!--Sources-->
+          <h2 class="subheading">Sources</h2>
+          <ol class="sources">
+            <li>
+              <a
+                href="https://www.britannica.com/art/English-literature/The-Old-English-period"
+                target="_blank"
+              >
+                https://www.britannica.com/art/English-literature/The-Old-English-period</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://readgreatliterature.com/literature-lists-timelines/old-english-literature-450-1066-reading-list/"
+                target="_blank"
+              >
+                https://readgreatliterature.com/literature-lists-timelines/old-english-literature-450-1066-reading-list/</a
+              >
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
