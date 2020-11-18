@@ -39,11 +39,12 @@ body {
 }
 
 .sidebar {
-  width: 33.33333vw;
+  flex-grow: 1;
 }
 
 .main-content {
   order: 0;
+  max-width: 66.66667vw;
 }
 
 .left {
@@ -97,8 +98,8 @@ li {
     flex-direction: column;
   }
 
-  .site > * {
-    width: initial !important;
+  .main-content {
+    max-width: 100%;
   }
 }
 
